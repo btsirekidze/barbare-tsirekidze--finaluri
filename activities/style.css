@@ -1,0 +1,48 @@
+header {
+  margin-top: -100px;
+  width: 100%;
+  background-color: rgba(61, 7, 7, 0.705);
+  position: fixed;
+  display: flex;
+  flex-wrap: wrap;
+}
+header div {
+  margin-top: 10px;
+  margin-left: 200px;
+  display: flex;
+}
+header div a {
+  margin-left: 100px;
+  color: rgb(255, 255, 255);
+  font-family: "BPG Banner", sans-serif;
+  text-decoration: none;
+}
+
+#activoba {
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+}
+#activoba .activoba {
+  display: inline;
+}
+#activoba .activoba article {
+  margin-top: -5px;
+  width: 60%;
+  height: 50%;
+  background-color: rgb(5, 2, 60);
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+#activoba a img:hover {
+  transition: 2s;
+  width: 70%;
+  height: 60%;
+}
+#activoba a img {
+  width: 60%;
+  height: 50%;
+}/*# sourceMappingURL=style.css.map */

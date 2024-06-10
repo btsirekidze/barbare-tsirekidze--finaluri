@@ -1,0 +1,15 @@
+#restaurant{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    .menu{
+        img:hover{
+            width: 80%;
+            height: 80%;
+        }
+        img{
+            width: 70%;
+            height: 70%;
+        }
+    }
+}

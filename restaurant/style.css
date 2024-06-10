@@ -1,0 +1,33 @@
+header {
+  width: 100%;
+  background-color: rgba(61, 7, 7, 0.705);
+  position: fixed;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -110px;
+}
+header div {
+  margin-top: 10px;
+  margin-left: 200px;
+  display: flex;
+}
+header div a {
+  margin-left: 100px;
+  color: rgb(255, 255, 255);
+  font-family: "BPG Banner", sans-serif;
+  text-decoration: none;
+}
+
+#restaurant {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+#restaurant .menu img:hover {
+  width: 80%;
+  height: 80%;
+}
+#restaurant .menu img {
+  width: 70%;
+  height: 70%;
+}/*# sourceMappingURL=style.css.map */

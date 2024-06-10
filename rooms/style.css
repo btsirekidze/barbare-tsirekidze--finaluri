@@ -1,0 +1,48 @@
+header {
+  width: 100%;
+  background-color: rgba(61, 7, 7, 0.705);
+  position: fixed;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -110px;
+}
+header div {
+  margin-top: 10px;
+  margin-left: 200px;
+  display: flex;
+}
+header div a {
+  margin-left: 100px;
+  color: rgb(255, 255, 255);
+  font-family: "BPG Banner", sans-serif;
+  text-decoration: none;
+}
+
+#otaxi {
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+}
+#otaxi .otaxi {
+  display: inline;
+}
+#otaxi .otaxi article {
+  margin-top: -5px;
+  width: 50%;
+  height: 50%;
+  background-color: rgb(184, 184, 163);
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+#otaxi img:hover {
+  transition: 2s;
+  width: 60%;
+  height: 60%;
+}
+#otaxi img {
+  width: 50%;
+  height: 50%;
+}/*# sourceMappingURL=style.css.map */
