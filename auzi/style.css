@@ -1,0 +1,43 @@
+body {
+  background-color: rgb(255, 255, 214);
+}
+
+.id {
+  display: flex;
+  flex-direction: row;
+}
+.id .div {
+  width: 50%;
+  height: 50%;
+}
+.id .div img {
+  width: 100%;
+  height: 100%;
+}
+.id .diiv {
+  border-radius: 10%;
+  margin-top: 50px;
+  color: black;
+  font-size: 20px;
+  font-weight: 300;
+  width: 20%;
+  height: 70%;
+  background-color: rgb(255, 224, 185);
+  margin-left: 100px;
+}
+.id .diiv p {
+  order: list;
+  display: inline-block;
+}
+.id .diiv .o {
+  display: inline;
+  margin-right: 50px;
+}
+.id .diiv .i {
+  display: inline;
+  margin-left: 50px;
+}
+
+img {
+  border-radius: 20%;
+}/*# sourceMappingURL=style.css.map */
