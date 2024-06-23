@@ -1,25 +1,45 @@
-#restaurant{
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    .menu{
-        img:hover{
-            width: 80%;
-            height: 80%;
+
+    #restaurant {
+        
+    width: 50%;
+    display: inline-block;
+   
+    .menu {
+    
+    width: 80%;
+    
         }
-        img{
-            width: 70%;
-            height: 70%;
         }
+    article{ 
+        @media screen and (max-width: 800px){
+        font-size: 14px;
     }
-    article{
-        margin-top: -5px;
-        width: 60%;
-        height: 50%;
-        background-color: rgb(161, 100, 160);
+        
+        display: inline;
+        margin-bottom:500px;
+       
+        background-color: rgb(51, 51, 51);
         text-decoration: none;
         font-size: 20px;
         
         color: white;
+        border-radius: 15%;
+        margin-left: -100px;
     }
-}
+
+   
+
+
+     
+        #restaurant:hover {
+
+        img{transition: 2s; width: 100%;
+    height: 60%;}
+    article{transition: 2s; width: 100%;}}
+    img{
+        border-radius: 20%;
+        width: 80%;
+    height: 50%;
+   }
+
+

@@ -1,13 +1,17 @@
 header {
+    margin-top: -100px;
     width: 100%;
-    background-color: rgba(61, 7, 7, 0.705);
+    background-color: rgba(0, 0, 0, 0.897);
     position: fixed;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+
     div {
         margin-top: 10px;
-        margin-left: 200px;
+        
         display: flex;
+        align-items: center;
         
         
         a {
@@ -15,10 +19,12 @@ header {
         color: rgb(255, 255, 255);
         font-family: "BPG Banner", sans-serif;
         text-decoration: none;
+        font-size: 30px;
         
         }
 
    
 }
+
 }
 

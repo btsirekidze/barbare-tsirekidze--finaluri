@@ -1,13 +1,42 @@
+footer {
+  margin-top: 5%;
+  justify-content: center;
+  background-color: black;
+  height: 200px;
+  width: 100%;
+}
+footer label {
+  color: white;
+  margin-left: 38%;
+}
+@media screen and (max-width: 800px) {
+  footer label {
+    margin-left: 30%;
+  }
+}
+footer input {
+  width: 500px;
+  height: 100px;
+  margin-left: 30%;
+}
+@media screen and (max-width: 800px) {
+  footer input {
+    width: 250px;
+    height: 100px;
+  }
+}
+
 header {
   width: 100%;
-  background-color: rgba(61, 7, 7, 0.705);
+  background-color: rgba(0, 0, 0, 0.897);
   position: fixed;
   display: flex;
   flex-wrap: wrap;
+  margin-top: -110px;
+  justify-content: center;
 }
 header div {
   margin-top: 10px;
-  margin-left: 200px;
   display: flex;
 }
 header div a {
@@ -15,6 +44,7 @@ header div a {
   color: rgb(255, 255, 255);
   font-family: "BPG Banner", sans-serif;
   text-decoration: none;
+  font-size: 30px;
 }
 
 img {
