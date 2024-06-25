@@ -36,8 +36,18 @@ header {
   justify-content: center;
 }
 header div {
-  margin-top: 10px;
+  margin-top: 100px;
   display: flex;
+}
+header div i {
+  color: white;
+  display: none !important;
+}
+@media screen and (max-width: 1200px) {
+  header div i {
+    display: inline !important;
+    margin-left: 0% !important;
+  }
 }
 header div a {
   margin-left: 100px;
@@ -45,4 +55,9 @@ header div a {
   font-family: "BPG Banner", sans-serif;
   text-decoration: none;
   font-size: 30px;
+}
+@media screen and (max-width: 800px) {
+  header div a {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */

@@ -1,3 +1,40 @@
+header {
+  margin-top: -100px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.897);
+  position: fixed;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+header div {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+}
+header div i {
+  color: white;
+  display: none !important;
+}
+@media screen and (max-width: 1200px) {
+  header div i {
+    display: inline !important;
+    justify-self: flex-end !important;
+  }
+}
+header div a {
+  margin-left: 100px;
+  color: rgb(255, 255, 255);
+  font-family: "BPG Banner", sans-serif;
+  text-decoration: none;
+  font-size: 30px;
+}
+@media screen and (max-width: 800px) {
+  header div a {
+    display: none;
+  }
+}
+
 #restaurant {
   width: 50%;
   display: inline-block;
@@ -64,26 +101,4 @@ footer input {
     width: 250px;
     height: 100px;
   }
-}
-
-header {
-  margin-top: -100px;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.897);
-  position: fixed;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-header div {
-  margin-top: 10px;
-  display: flex;
-  align-items: center;
-}
-header div a {
-  margin-left: 100px;
-  color: rgb(255, 255, 255);
-  font-family: "BPG Banner", sans-serif;
-  text-decoration: none;
-  font-size: 30px;
 }/*# sourceMappingURL=style.css.map */

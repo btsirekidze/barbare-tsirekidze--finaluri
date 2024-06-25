@@ -8,6 +8,15 @@ header {
     justify-content: center;
 
     div {
+        i{
+            color: white;
+
+            display: none !important;
+            @media screen and (max-width: 1200px){
+                display: inline !important;
+                margin-left: 0% !important;
+            }
+        }
         margin-top: 10px;
         
         display: flex;
@@ -15,6 +24,9 @@ header {
         
         
         a {
+            @media screen and (max-width: 1200px){
+                display: none;
+            }
         margin-left: 100px;
         color: rgb(255, 255, 255);
         font-family: "BPG Banner", sans-serif;
@@ -25,5 +37,6 @@ header {
 
    
 }
+
 
 }
