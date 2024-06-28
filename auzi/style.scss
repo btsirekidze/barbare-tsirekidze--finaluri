@@ -1,65 +1,82 @@
 @import "header";
 @import "footer";
-body{
-background-color: rgb(255, 255, 255);
-}
-.id{
-    display: flex;
-    flex-direction: row;
-    @media screen and (max-width: 1200px){
-        flex-direction: column;
-    }
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
 
-.div {
-    @media screen and (max-width: 1200px){
-        width: auto;
+body{
+    background-color: rgb(255, 255, 255);
     }
-    width: 50%;
-    height: 50%;
-    
-    
-        
-        
-        img{
-            width: 100%;
-            height: 100%;
+    .id{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        @media screen and (max-width: 1200px){
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
         }
     
-
-
-}
-.diiv{
-    @media screen and (max-width: 1200px){
-        width: auto;
-        margin-left: 0px;
+    .div {
+        @media screen and (max-width: 1200px){
+            width: auto;
+        }
+        width: 50%;
+        height: 50%;
+        
+        
+            
+            
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        
+    
+    
     }
-    border-radius: 10%;
-    margin-top: 50px;
-    color:black;
-    font-size: 20px;
-    font-weight: 300;
-    width: 20%;
-    height: 70%;
-    background-color: rgb(51, 51, 51);
-    color: white;
-    margin-left: 100px;
-    p{
-        order: list;
-        display: inline-block;
+    .diiv{
+        @media screen and (max-width: 1200px){
+            width: auto;
+            margin-left: 0px;
+        }
+        border-radius: 10%;
+        margin-top: 50px;
+        color:black;
+        font-size: 20px;
+        font-weight: 300;
+        width: 20%;
+        height: 70%;
+        background-color: rgb(51, 51, 51);
         color: white;
-       
+        margin-left: 100px;
+        p{
+            -webkit-box-ordinal-group: list;
+                -ms-flex-order: list;
+                    order: list;
+            display: inline-block;
+            color: white;
+           
+        }
+        .o{
+            display: inline;
+            margin-right: 50px;
+        }
+        .i {
+            display: inline;
+            margin-left: 50px;
+        }
+        a{
+            color: white;
+        }
     }
-    .o{
-        display: inline;
-        margin-right: 50px;
     }
-    .i {
-        display: inline;
-        margin-left: 50px;
-    }
-    a{
-        color: white;
-    }
-}
-}
-img{ border-radius: 20%;}
+    img{ border-radius: 20%;}

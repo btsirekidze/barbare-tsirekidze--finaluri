@@ -1,12 +1,21 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 footer{
     margin-top:5%;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     background-color: black;
     height: 200px;
     width: 100%;
     label{
         @media screen and (max-width: 800px){
-           margin-left: 30%;
+            margin-left: 30%;
         }
         color: white;
         margin-left: 38%;

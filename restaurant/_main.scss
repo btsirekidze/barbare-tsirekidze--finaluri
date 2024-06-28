@@ -1,5 +1,12 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
 
-    #restaurant {
+
+#restaurant {
         
     width: 50%;
     display: inline-block;
@@ -33,9 +40,9 @@
      
         #restaurant:hover {
 
-        img{transition: 2s; width: 100%;
+        img{-webkit-transition: 2s;-o-transition: 2s;transition: 2s; width: 100%;
     height: 60%;}
-    article{transition: 2s; width: 100%;}}
+    article{-webkit-transition: 2s;-o-transition: 2s;transition: 2s; width: 100%;}}
     img{
         border-radius: 20%;
         width: 80%;

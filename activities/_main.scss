@@ -1,16 +1,32 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 body{
     background-color: rgb(255, 255, 255);
 }
 #activoba {
     
     @media screen and (max-width: 800px){
-        flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
     }
     margin-top: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row ;
-    justify-content: center  ;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row ;
+            flex-direction: row ;
+    -webkit-box-pack: center  ;
+        -ms-flex-pack: center  ;
+            justify-content: center  ;
    .activoba {
     display: inline;
     a{
@@ -36,9 +52,9 @@ body{
      
         .activoba:hover {
 
-        img{transition: 2s; width: 100%;
+        img{-webkit-transition: 2s;-o-transition: 2s;transition: 2s; width: 100%;
     height: 60%;}
-    article{transition: 2s; width: 100%;}}
+    article{-webkit-transition: 2s;-o-transition: 2s;transition: 2s; width: 100%;}}
     img{
         @media screen and (max-width: 800px){
             width: 50%;

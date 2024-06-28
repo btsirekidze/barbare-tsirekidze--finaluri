@@ -1,16 +1,41 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
 header {
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.897);
-  position: fixed;
+  background-color: rgba(255, 255, 255, 0.897);
+  position: sticky;
 }
 header a {
   margin-left: 100px;
-  color: rgb(255, 255, 255);
+  margin-bottom: 20px;
+  color: rgb(0, 0, 0);
   font-family: "BPG Banner", sans-serif;
   text-decoration: none;
   font-size: 30px;
+  display: inline;
 }
 
+.ll {
+  width: 25%;
+  height: 25%;
+  margin-right: 3px;
+  display: inline;
+}
+.ll img {
+  width: 5%;
+  height: 4%;
+}
+
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
 body {
   background-color: rgb(255, 255, 255);
 }
@@ -71,6 +96,12 @@ img {
   border-radius: 20%;
 }
 
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
 footer {
   margin-top: 5%;
   justify-content: center;

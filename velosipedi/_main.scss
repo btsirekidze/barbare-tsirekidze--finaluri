@@ -1,11 +1,26 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 body{
     background-color: rgb(255, 255, 255);
     }
     .id{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: row;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
         @media screen and (max-width: 1200px){
-            flex-direction: column;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
         }
     
     .div {
@@ -42,7 +57,9 @@ body{
         background-color: rgb(51, 51, 51);
         margin-left: 100px;
         p{
-            order: list;
+            -webkit-box-ordinal-group: list;
+                -ms-flex-order: list;
+                    order: list;
             display: inline-block;
            
         }
